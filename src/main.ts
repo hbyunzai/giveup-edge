@@ -1,4 +1,4 @@
-import {BrowserKernelType, getBrowserKernel} from './kernel.js';
+import {BrowserKernelType, getBrowserKernel} from './kernel';
 
 export function main() {
     if (getMetaRender()) {
@@ -17,4 +17,8 @@ export function main() {
 
 export function getMetaRender() {
     return document.head.children.namedItem("renderer");
+}
+
+window.onload = function () {
+    main();
 }

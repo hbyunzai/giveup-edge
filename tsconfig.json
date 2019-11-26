@@ -3,16 +3,17 @@
   "compilerOptions": {
     "baseUrl": "./src",
     "outDir": "./dist",
+    "importHelpers": true,
     "sourceMap": true,
     "declaration": true,
+    "allowJs": true,
     "downlevelIteration": true,
     "experimentalDecorators": true,
     "module": "esnext",
-    "moduleResolution": "node",
-    "importHelpers": true,
     "target": "es2015",
     "typeRoots": [
-      "node_modules/@types"
+      "./node_modules/@types",
+      "./typings/modules"
     ],
     "lib": [
       "es5",
@@ -58,9 +59,5 @@
       "esnext.intl",
       "esnext.symbol"
     ]
-  },
-  "angularCompilerOptions": {
-    "fullTemplateTypeCheck": true,
-    "strictInjectionParameters": true
   }
 }

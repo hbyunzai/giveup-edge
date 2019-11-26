@@ -8,10 +8,8 @@ export function main() {
             case BrowserKernelType.APP_WEB_KIT:
             case BrowserKernelType.PRESTO:
             case BrowserKernelType.GECKO:
-                console.log(1);
                 break;
             case BrowserKernelType.TRIDENT:
-                console.log(2);
                 break;
         }
     }

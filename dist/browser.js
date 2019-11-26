@@ -1,6 +1,7 @@
 import { BrowserKernelType, getBrowserKernel } from "./kernel";
 export const SPECIAL_BROWSERS = ['360ee'];
 export function main() {
+    alert('111');
     if (getMetaRender()) {
         switch (getBrowserKernel()) {
             case BrowserKernelType.APP_WEB_KIT:

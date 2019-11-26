@@ -7,6 +7,7 @@ export enum BrowserKernelType {
 
 export function getBrowserKernel(): BrowserKernelType {
     const agent = navigator.userAgent.toLowerCase();
+    console.log(agent);
     return filterAgent(agent);
 }
 

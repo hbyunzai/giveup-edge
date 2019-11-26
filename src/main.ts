@@ -1,7 +1,9 @@
 import {main} from "./browser";
-import "@babel/polyfill";
+import "core-js/stable";
+import "regenerator-runtime/runtime";
 
 window.onload = function () {
+    alert(1);
     main();
 }
 

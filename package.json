@@ -1,0 +1,13 @@
+{
+  "name": "giveup-edge",
+  "version": "1.0.0",
+  "description": "report to users to give up ie and edge and give some other browsers to users.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ferried",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^3.7.2"
+  }
+}

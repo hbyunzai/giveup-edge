@@ -1,7 +1,5 @@
-import {BrowserKernelType, getBrowserKernel} from "./kernel";
-
-export const SPECIAL_BROWSERS: Array<string> = ['360ee']
-
+import { BrowserKernelType, getBrowserKernel } from "./kernel";
+export const SPECIAL_BROWSERS = ['360ee'];
 export function main() {
     if (getMetaRender()) {
         switch (getBrowserKernel()) {
@@ -16,7 +14,7 @@ export function main() {
         }
     }
 }
-
 export function getMetaRender() {
     return document.head.children.namedItem("renderer");
 }
+//# sourceMappingURL=browser.js.map

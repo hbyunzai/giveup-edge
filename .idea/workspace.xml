@@ -2,38 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0db0fc9b-983a-44b2-986b-7e8c7cb9ce0f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/main.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/src/browser.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/src/index.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/src/kernel.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/src/main.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/src/meta.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/browser.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/browser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/browser.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/index.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/kernel.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/kernel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/kernel.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/meta.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/meta.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/meta.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/browser.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/browser.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/browser.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/kernel.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/kernel.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/kernel.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/meta.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/meta.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/meta.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/browser.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/kernel.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/main.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/meta.d.ts" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/browser.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/browser.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -79,14 +75,14 @@
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/dist" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/ts" />
       <recent name="$PROJECT_DIR$/src/test" />
+      <recent name="$PROJECT_DIR$/dist" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/dist" />
     </key>
   </component>
@@ -114,7 +110,7 @@
       <updated>1574738801764</updated>
       <workItem from="1574738803234" duration="5178000" />
       <workItem from="1574749430904" duration="33000" />
-      <workItem from="1574749466337" duration="2690000" />
+      <workItem from="1574749466337" duration="4294000" />
     </task>
     <task id="LOCAL-00001" summary="fix(all): fix js module and import to html">
       <created>1574746921406</created>

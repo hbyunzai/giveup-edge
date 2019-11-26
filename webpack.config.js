@@ -1,7 +1,8 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const webpack = require('webpack');
 module.exports = {
-    mode: "development",
+    mode: "production",
     entry: './src/main.ts',
     devtool: "inline-source-map",
     output: {
@@ -12,7 +13,8 @@ module.exports = {
         extensions: ['.ts', '.js']
     },
     plugins: [
-        new HtmlWebpackPlugin({template: "./src/index.html"})
+        new HtmlWebpackPlugin({template: "./src/index.html"}),
+        new webpack.HashedModuleIdsPlugin(),
     ],
     module: {
         rules: [

@@ -1,8 +1,5 @@
 {
   "compileOnSave": false,
-  "include": [
-    "./src/*"
-  ],
   "exclude": [
     "./node_modules"
   ],
@@ -12,7 +9,6 @@
     "importHelpers": true,
     "sourceMap": true,
     "declaration": true,
-    "allowJs": true,
     "downlevelIteration": true,
     "experimentalDecorators": true,
     "module": "esnext",

@@ -1,9 +1,13 @@
 import "core-js";
 import "regenerator-runtime/runtime";
-import {test} from "./test";
+const { detect } = require('detect-browser');
 
 window.onload = function () {
-    alert(1);
-    test();
+    const browser = detect();
+    if (browser) {
+        console.log(browser.name);
+        console.log(browser.version);
+        console.log(browser.os);
+    }
 }
 

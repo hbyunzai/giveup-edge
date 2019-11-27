@@ -2,9 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0db0fc9b-983a-44b2-986b-7e8c7cb9ce0f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/dom.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/validator.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/validator.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/browser.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/browser.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/browser.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/browser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/browser.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/browser.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/test.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/test.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/test.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/test.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/validator.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/validator.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/validator.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/validator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/validator.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/validator.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/browser.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/browser.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -108,7 +126,7 @@
       <workItem from="1574749430904" duration="33000" />
       <workItem from="1574749466337" duration="10704000" />
       <workItem from="1574816084183" duration="11589000" />
-      <workItem from="1574833760051" duration="941000" />
+      <workItem from="1574833760051" duration="3324000" />
     </task>
     <task id="LOCAL-00001" summary="fix(all): fix js module and import to html">
       <created>1574746921406</created>
@@ -138,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574824839698</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="feature(validate): add some regExp">
+      <created>1574834883269</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1574834883269</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,6 +202,7 @@
     <MESSAGE value="fix(all): webpack and tsc" />
     <MESSAGE value="fix(babel): fix config" />
     <MESSAGE value="fix(validator): fix validator" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix(validator): fix validator" />
+    <MESSAGE value="feature(validate): add some regExp" />
+    <option name="LAST_COMMIT_MESSAGE" value="feature(validate): add some regExp" />
   </component>
 </project>

@@ -6,7 +6,7 @@
   "compilerOptions": {
     "baseUrl": "./src",
     "outDir": "./dist",
-    "importHelpers": true,
+    "importHelpers": false,
     "sourceMap": true,
     "declaration": true,
     "downlevelIteration": true,

@@ -5,6 +5,9 @@ module.exports = {
     mode: "production",
     entry: './src/main.ts',
     devtool: "inline-source-map",
+    performance: {
+        hints: false
+    },
     output: {
         path: path.resolve(__dirname, 'dist'),
         filename: '[name].bundle.js'

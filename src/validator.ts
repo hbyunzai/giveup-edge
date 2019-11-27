@@ -18,7 +18,10 @@ export enum BrowserType {
     UC = 'ubrowser',
     METASR = 'metasr',
     FIREFOX = 'firefox',
-    SAFARI = 'safari'
+    SAFARI = 'safari',
+    QQCP = 'qqcp',
+    UCCP = 'uccp',
+    METASRCP = 'metasrcp'
 }
 
 export interface Validator {
@@ -34,7 +37,7 @@ export const validators: Array<Validator> = [
     },
     {
         name: BrowserType.IE11, validate: (ua: string, ...args) => {
-            return new RegExp(/rv:11.0/).test(ua);
+            return ua === "mozilla/5.0 (windows nt 10.0; wow64; trident/7.0; .net4.0c; .net4.0e; rv:11.0) like gecko";
         }
     },
     {
@@ -117,7 +120,21 @@ export const validators: Array<Validator> = [
                 !new RegExp(/metasr\s*\d*/).test(ua) &&
                 !new RegExp(/firefox\/\d*/).test(ua)
         }
+    },
+    {
+        name: BrowserType.QQCP, validate: (ua: string, ...args) => {
+            return new RegExp(/qqbrowser\/\d*/).test(ua) && new RegExp(/trident\/\d*/).test(ua);
+        }
+    },
+    {
+        name: BrowserType.METASRCP, validate: (ua: string, ...args) => {
+            return new RegExp(/metasr\s*\d*/).test(ua) && new RegExp(/trident\/\d*/).test(ua);
+        }
+    },
+    {
+        name: BrowserType.UCCP, validate: (ua: string, ...args) => {
+            return new RegExp(/ubrowser\/\d*/).test(ua) && new RegExp(/trident\/\d*/).test(ua);
+        }
     }
-
 ];
 

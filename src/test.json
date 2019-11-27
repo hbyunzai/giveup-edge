@@ -29,6 +29,10 @@
       "ua": "mozilla/5.0 (windows nt 10.0; wow64) applewebkit/537.36 (khtml, like gecko) chrome/70.0.3538.25 safari/537.36 core/1.70.3741.400 qqbrowser/10.5.3863.400"
     },
     {
+      "name": "qqcp",
+      "ua": "mozilla/5.0 (windows nt 10.0; wow64; trident/7.0; .net4.0c; .net4.0e; core/1.70.3741.400 qqbrowser/10.5.3863.400; rv:11.0) like gecko"
+    },
+    {
       "name": "maxthon",
       "ua": "mozilla/5.0 (windows nt 10.0; wow64) applewebkit/537.36 (khtml, like gecko) chrome/61.0.3163.79 safari/537.36 maxthon/5.2.7.4000"
     },
@@ -49,8 +53,16 @@
       "ua": "mozilla/5.0 (windows nt 10.0; wow64) applewebkit/537.36 (khtml, like gecko) chrome/55.0.2883.87 ubrowser/6.2.4098.3 safari/537.36"
     },
     {
+      "name": "uccp",
+      "ua": "mozilla/5.0 (windows nt 10.0; wow64; trident/7.0; rv:11.0; ubrowser/6.2.4098.3) like gecko"
+    },
+    {
       "name": "metasr",
       "ua": "mozilla/5.0 (windows nt 10.0; wow64) applewebkit/537.36 (khtml, like gecko) chrome/58.0.3029.110 safari/537.36 se 2.x metasr 1.0"
+    },
+    {
+      "name": "metasrcp",
+      "ua": "mozilla/5.0 (windows nt 10.0; wow64; trident/7.0; .net4.0c; .net4.0e; se 2.x metasr 1.0; rv:11.0) like gecko"
     },
     {
       "name": "firefox",

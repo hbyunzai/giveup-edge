@@ -15,7 +15,12 @@ export function getMetaRenderer(): Element {
 }
 
 export function main() {
+    // 可以检测出的浏览器
     if (getMetaRenderer() && getUserBrowser().length > 0) {
         const currentBrowser = getUserBrowser()[0];
+    }
+    // 无法检测出的浏览器
+    else {
+
     }
 }

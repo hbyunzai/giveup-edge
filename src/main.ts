@@ -1,10 +1,13 @@
 import "core-js";
 import "regenerator-runtime/runtime";
 import {main} from "./browser";
-import {test} from "./test";
 
 window.onload = function () {
-    main();
-    test();
+    // 下次是否继续提示
+    if (localStorage.getItem("giveup-edge") === '0') {
+
+    } else if (!localStorage.getItem("giveup-edge")) {
+        main();
+    }
 }
 

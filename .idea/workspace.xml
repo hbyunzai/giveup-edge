@@ -1,25 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0db0fc9b-983a-44b2-986b-7e8c7cb9ce0f" name="Default Changelist" comment="fix(babel): fix config">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/ferried.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/validator.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" />
+    <list default="true" id="0db0fc9b-983a-44b2-986b-7e8c7cb9ce0f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/babel.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/babel.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/browser.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/browser.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kernel.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/meta.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/validator.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/validator.ts" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -122,7 +107,8 @@
       <workItem from="1574738803234" duration="5178000" />
       <workItem from="1574749430904" duration="33000" />
       <workItem from="1574749466337" duration="10704000" />
-      <workItem from="1574816084183" duration="8044000" />
+      <workItem from="1574816084183" duration="11589000" />
+      <workItem from="1574833760051" duration="941000" />
     </task>
     <task id="LOCAL-00001" summary="fix(all): fix js module and import to html">
       <created>1574746921406</created>
@@ -145,7 +131,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574757888651</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="fix(validator): fix validator">
+      <created>1574824839698</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1574824839698</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,6 +176,7 @@
     <MESSAGE value="fix(all): fix js module and import to html" />
     <MESSAGE value="fix(all): webpack and tsc" />
     <MESSAGE value="fix(babel): fix config" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix(babel): fix config" />
+    <MESSAGE value="fix(validator): fix validator" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix(validator): fix validator" />
   </component>
 </project>

@@ -11,9 +11,14 @@
   "author": "ferried",
   "license": "MIT",
   "dependencies": {
+    "@babel/cli": "^7.7.4",
+    "@babel/core": "^7.7.4",
+    "@babel/preset-env": "^7.7.4",
+    "@types/jquery": "^3.3.31",
     "babel-loader": "^8.0.6",
-    "core-js": "^3.4.2",
+    "core-js": "2",
     "html-webpack-plugin": "^3.2.0",
+    "jquery": "^3.4.1",
     "regenerator-runtime": "^0.13.3",
     "ts-loader": "^6.2.1",
     "tslib": "^1.10.0",
@@ -21,10 +26,5 @@
     "webpack": "^4.41.2",
     "webpack-cli": "^3.3.10",
     "webpack-dev-server": "^3.9.0"
-  },
-  "devDependencies": {
-    "@babel/cli": "^7.7.4",
-    "@babel/core": "^7.7.4",
-    "@babel/preset-env": "^7.7.4"
   }
 }

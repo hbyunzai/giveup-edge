@@ -1,34 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0db0fc9b-983a-44b2-986b-7e8c7cb9ce0f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.babelrc" beforeDir="false" />
+    <list default="true" id="0db0fc9b-983a-44b2-986b-7e8c7cb9ce0f" name="Default Changelist" comment="fix(babel): fix config">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/ferried.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/validator.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/babel.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/browser.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/browser.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/browser.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/kernel.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/kernel.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/kernel.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main.bundle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/meta.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/meta.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/meta.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/babel.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/babel.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kernel.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/kernel.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/browser.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/browser.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kernel.ts" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/meta.ts" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,12 +35,28 @@
       <executable />
     </execution>
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="dev" />
-      </map>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
     </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
@@ -63,7 +72,6 @@
   </component>
   <component name="ProjectId" id="1U8WeujQgTiFg6TEo4wv3ssDtpQ" />
   <component name="ProjectLevelVcsManager">
-    <OptionsSetting value="false" id="Update" />
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
@@ -73,33 +81,31 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="javascript.nodejs.core.library.configured.version" value="13.1.0" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/dist" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dist" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/ts" />
       <recent name="$PROJECT_DIR$/src/test" />
       <recent name="$PROJECT_DIR$/dist" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/dist" />
-    </key>
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
+  <component name="RunDashboard">
+    <option name="ruleStates">
       <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
       </list>
     </option>
   </component>
@@ -115,7 +121,8 @@
       <updated>1574738801764</updated>
       <workItem from="1574738803234" duration="5178000" />
       <workItem from="1574749430904" duration="33000" />
-      <workItem from="1574749466337" duration="6955000" />
+      <workItem from="1574749466337" duration="10704000" />
+      <workItem from="1574816084183" duration="8044000" />
     </task>
     <task id="LOCAL-00001" summary="fix(all): fix js module and import to html">
       <created>1574746921406</created>
@@ -131,11 +138,32 @@
       <option name="project" value="LOCAL" />
       <updated>1574753874502</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="fix(babel): fix config">
+      <created>1574757888651</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1574757888651</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/src/kernel.js" />
+        <option value="$PROJECT_DIR$/src/main.js" />
+        <option value="$PROJECT_DIR$/src/browser.js" />
+        <option value="$PROJECT_DIR$/src/meta.js" />
+        <option value="$PROJECT_DIR$/src/kernel.d.ts" />
+        <option value="$PROJECT_DIR$/src/meta.d.ts" />
+        <option value="$PROJECT_DIR$/src/main.d.ts" />
+        <option value="$PROJECT_DIR$/src/index.d.ts" />
+        <option value="$PROJECT_DIR$/src/browser.d.ts" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -154,24 +182,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="fix(all): fix js module and import to html" />
     <MESSAGE value="fix(all): webpack and tsc" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix(all): webpack and tsc" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state width="1419" height="295" key="GridCell.Tab.0.bottom" timestamp="1574759373746">
-      <screen x="0" y="0" width="1440" height="860" />
-    </state>
-    <state width="1419" height="295" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1574759373746" />
-    <state width="1419" height="295" key="GridCell.Tab.0.center" timestamp="1574759373746">
-      <screen x="0" y="0" width="1440" height="860" />
-    </state>
-    <state width="1419" height="295" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1574759373746" />
-    <state width="1419" height="295" key="GridCell.Tab.0.left" timestamp="1574759373746">
-      <screen x="0" y="0" width="1440" height="860" />
-    </state>
-    <state width="1419" height="295" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1574759373746" />
-    <state width="1419" height="295" key="GridCell.Tab.0.right" timestamp="1574759373746">
-      <screen x="0" y="0" width="1440" height="860" />
-    </state>
-    <state width="1419" height="295" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1574759373746" />
+    <MESSAGE value="fix(babel): fix config" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix(babel): fix config" />
   </component>
 </project>

@@ -1,20 +1,16 @@
-import {BrowserKernelType, getBrowserKernel} from "./kernel";
+import "core-js/stable";
+import "regenerator-runtime/runtime";
+import {Validator, validators} from "./validator";
 
-export const SPECIAL_BROWSERS: Array<string> = ['360ee']
 
-export function main() {
-    if (getMetaRender()) {
-        switch (getBrowserKernel()) {
-            case BrowserKernelType.APP_WEB_KIT:
-            case BrowserKernelType.PRESTO:
-            case BrowserKernelType.GECKO:
-                break;
-            case BrowserKernelType.TRIDENT:
-                break;
-        }
-    }
+export function getBrowserType() {
 }
 
-export function getMetaRender() {
+
+export function getMetaRenderer(): Element {
     return document.head.children.namedItem("renderer");
+}
+
+export function main() {
+    getBrowserType();
 }

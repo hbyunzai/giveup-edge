@@ -1,9 +1,9 @@
-import {main} from "./browser";
-import "core-js/stable";
+import "core-js";
 import "regenerator-runtime/runtime";
+import {test} from "./test";
 
 window.onload = function () {
     alert(1);
-    main();
+    test();
 }
 

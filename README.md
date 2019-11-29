@@ -2,7 +2,13 @@
 report to users to give up ie and edge and give some other browsers to users.
 
 ## HOW TO USE
+## HEAD
 
+```html
+use this tag to open js
+<meta name="renderer" content="webkit">
+```
+## PACKAGE
 `
 npm install giveup-edge --save
 `

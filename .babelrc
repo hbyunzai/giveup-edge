@@ -1,6 +1,8 @@
 {
   "presets": ["@babel/env", "@babel/typescript"],
   "plugins": [
+    "@babel/plugin-transform-runtime",
+    "@babel/plugin-transform-modules-commonjs",
     "@babel/plugin-proposal-numeric-separator",
     "@babel/proposal-class-properties",
     "@babel/proposal-object-rest-spread"

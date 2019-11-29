@@ -1,10 +1,20 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const webpack = require('webpack');
+const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 module.exports = {
     mode: "production",
     entry: './src/main.ts',
     devtool: "inline-source-map",
+    optimization: {
+        minimizer: [
+            new UglifyJsPlugin({
+                uglifyOptions: {
+                    ie8: true
+                }
+            })
+        ]
+    },
     performance: {
         hints: false
     },
@@ -23,7 +33,7 @@ module.exports = {
         rules: [{
             test: /\.(ts|js)x?$/,
             exclude: /node_modules/,
-            loader: ['babel-loader','ts-loader'],
+            loader: ['babel-loader', 'ts-loader'],
         }],
     },
     devServer: {

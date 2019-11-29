@@ -18,12 +18,13 @@ export function getMetaRenderer(): Element {
 export function main() {
     // 可以检测出的浏览器
     if (getMetaRenderer() && getUserBrowser().length > 0) {
-        const currentBrowser = getUserBrowser()[0];
-        if (currentBrowser.name.includes("ie") || currentBrowser.name.includes("edge") || currentBrowser.name.includes("cp")) {
-            // 插入css
-            insertCSS();
-            // 插入dom
-            insertDOM();
-        }
+       getUserBrowser().forEach((browser)=>{
+           if (browser.name.includes("ie") || browser.name.includes("edge") || browser.name.includes("cp")) {
+               // 插入css
+               insertCSS();
+               // 插入dom
+               insertDOM();
+           }
+       })
     }
 }

@@ -20,13 +20,11 @@ module.exports = {
         new webpack.HashedModuleIdsPlugin(),
     ],
     module: {
-        rules: [
-            {
-                test: /\.ts?$/,
-                use: ["babel-loader", "ts-loader"],
-                exclude: [path.resolve(__dirname, "node_modules")]
-            }
-        ]
+        rules: [{
+            test: /\.(ts|js)x?$/,
+            exclude: /node_modules/,
+            loader: 'babel-loader',
+        }],
     },
     devServer: {
         contentBase: path.join(__dirname, 'dist'),

@@ -5,9 +5,12 @@ import {insertCSS, insertDOM} from "./dom";
 
 export function getUserBrowser(): Array<Validator> | null {
     const ua: string = navigator.userAgent.toLowerCase();
-    const userBrowser: Array<Validator> | null = validators.filter((validator: Validator) => {
-        return validator.validate(ua);
-    });
+    const userBrowser = [];
+    for (let i = 0; i < validators.length; i++) {
+        if (validators[i].validate(ua) === true) {
+            userBrowser.push(validators[i]);
+        }
+    }
     return userBrowser;
 }
 

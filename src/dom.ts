@@ -151,7 +151,8 @@ export function insertCSS(): void {
         "            width: 100%;\n" +
         "            /*margin: 16px 0;*/\n" +
         "        }";
-    head.append(style);
+    head.appendChild(style);
+
 }
 
 export function insertDOM(): void {

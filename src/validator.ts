@@ -37,7 +37,7 @@ export const validators: Array<Validator> = [
     },
     {
         name: BrowserType.IE11, validate: (ua: string, ...args) => {
-            return ua === "mozilla/5.0 (windows nt 10.0; wow64; trident/7.0; .net4.0c; .net4.0e; rv:11.0) like gecko";
+            return !(window['ActiveXObject']) && "ActiveXObject" in window;
         }
     },
     {
